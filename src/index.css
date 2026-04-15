@@ -371,6 +371,8 @@ button { cursor: pointer; border: none; background: none; font-family: var(--fon
   padding: 24px 48px;
   position: relative;
   overflow: visible;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* Ambient glow behind bottle */
