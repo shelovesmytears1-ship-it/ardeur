@@ -10,37 +10,37 @@ export default function Collection({ navigate, lang }) {
     {
       id: 1, name: 'NOCTURNE', sub: 'Rouge',
       desc: 'Dark Rose · Oud · Smoked Cedar', price: '€290', volume: '50ml',
-      img: '/rouge.png',
+      img: `${import.meta.env.BASE_URL}rouge.png`,
       tag: dict.tags.limited, tagType: 'Limited'
     },
     {
       id: 2, name: 'EMPIRE', sub: 'Absolu',
       desc: 'Vetiver · Amber · Black Pepper', price: '€340', volume: '75ml',
-      img: '/absolu.png',
+      img: `${import.meta.env.BASE_URL}absolu.png`,
       tag: dict.tags.bestseller, tagType: 'Bestseller'
     },
     {
       id: 3, name: 'REVERIE', sub: 'Blanc',
       desc: 'White Musk · Iris · Sandalwood', price: '€260', volume: '50ml',
-      img: '/blanc.png',
+      img: `${import.meta.env.BASE_URL}blanc.png`,
       tag: dict.tags.new, tagType: 'New'
     },
     {
       id: 4, name: 'ENFER', sub: 'Noir',
       desc: 'Leather · Myrrh · Dark Patchouli', price: '€420', volume: '100ml',
-      img: '/noir.png',
+      img: `${import.meta.env.BASE_URL}noir.png`,
       tag: dict.tags.exclusive, tagType: 'Exclusive'
     },
     {
       id: 5, name: 'VELOURS', sub: 'Soir',
       desc: 'Cashmere · Vanilla · Pink Pepper', price: '€310', volume: '50ml',
-      img: '/soir.png',
+      img: `${import.meta.env.BASE_URL}soir.png`,
       tag: null, tagType: null
     },
     {
       id: 6, name: 'ARDEUR', sub: 'Édition d\'Art',
       desc: 'Bulgarian Rose · Oud · Civet', price: '€580', volume: '100ml',
-      img: '/bottle.png',
+      img: `${import.meta.env.BASE_URL}bottle.png`,
       tag: dict.tags.collector, tagType: 'Collector'
     },
   ];

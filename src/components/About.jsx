@@ -61,7 +61,7 @@ export default function About({ lang }) {
 
         <div className="about-visual">
           <div className="about-img-wrap panel-glow">
-            <img src="/noir.png" alt="Ardeur aesthetics" />
+            <img src={`${import.meta.env.BASE_URL}noir.png`} alt="Ardeur aesthetics" />
           </div>
           <div className="panel panel-cut-tl panel-glow" style={{ position: 'absolute', bottom: -24, right: -24, width: 220, padding: '20px 24px' }}>
             <div className="label-gold" style={{ marginBottom: 8 }}>{dict.badgeL}</div>

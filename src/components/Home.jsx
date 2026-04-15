@@ -90,7 +90,7 @@ export default function Home({ navigate, theme, lang }) {
         <div className="hero-center" style={{ paddingBottom: '30px', alignItems: 'center' }}>
           <div className="bottle-wrap" style={{ alignItems: 'center', transform: 'translateY(-20px)' }}>
             <div className="bottle-orbit"><div className="orbit-dot" /></div>
-            <img src="/bottle.png" alt="ARDEUR Perfume" className="bottle-img" style={{ maxHeight: '100%', marginBottom: '20px' }} />
+            <img src={`${import.meta.env.BASE_URL}bottle.png`} alt="ARDEUR Perfume" className="bottle-img" style={{ maxHeight: '100%', marginBottom: '20px' }} />
           </div>
         </div>
 
