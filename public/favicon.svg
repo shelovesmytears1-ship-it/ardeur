@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Dark background -->
+  <rect width="512" height="512" fill="#0a0a0a"/>
+  
+  <!-- Stylized "A" - two diagonal legs -->
+  <polygon points="256,80 140,420 185,420 256,200 327,420 372,420" fill="none" stroke="#c9a84c" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  
+  <!-- Crossbar -->
+  <line x1="196" y1="300" x2="316" y2="300" stroke="#c9a84c" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Red flame at the top apex -->
+  <ellipse cx="256" cy="74" rx="12" ry="18" fill="#cc2a2a" opacity="0.95"/>
+  <ellipse cx="256" cy="68" rx="7" ry="10" fill="#ff4444"/>
+  <ellipse cx="256" cy="63" rx="3.5" ry="5" fill="#ff8888"/>
+</svg>
